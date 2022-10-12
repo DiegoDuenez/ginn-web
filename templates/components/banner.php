@@ -1,7 +1,7 @@
 <div class="banner">
 
     <div class="banner__logo">
-        <a href="./"><img src="resources/img/logotipo.png" alt="GINN" title="GINN | Grupo Inmobiliario del Norte"></a> 
+        <a href="./"><img src="resources/img/logotipo.png" alt="GINN" title="GINN"></a> 
     </div>
 
     <div class="container-glider">
