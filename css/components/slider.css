@@ -11,6 +11,12 @@
     height: 80%;
   }
 
+    @media screen and (min-width: 300px) and (max-width: 550px) {
+        .container-glider{
+            height: 100%;
+        }
+    }
+
 .card{
     width: 100%;
     height: 10rem;
@@ -21,6 +27,13 @@
     height: 40rem;
     object-fit: cover;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 550px) {
+        .card img{
+            height: 60rem;
+        }
+    }
+   
 .glider{
     position: relative;
 
