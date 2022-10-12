@@ -1,0 +1,124 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Settings (Root)
+|   ---------------------------------------------------------------------------------
+|   
+|   Here you can put all your own values and variables that you can use in your project.
+|   For variables are put inside the :root pseudo-class.
+|
+*/
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Root
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+:root{
+    --color-black: #000000;
+    --color-white : #ffffff;
+    --color-gray-50: #888888;
+    --color-gray-100: #7c7c7c;
+    --color-gray-200: #6f6f6f;
+    --color-gray-900: #323031;
+    --fs-titulo: 4rem;
+    --fs-texto: 1rem;
+    --ff-titulo: BakBakOneRegular;
+    --ff-texto: MavenProRegular;
+    
+}
+
+/*
+|   ---------------------------------------------------------------------------------
+|   All
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with box-sizing in border-box.
+|
+*/
+* {
+    margin: 0;
+    padding: 0;
+        -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        -webkit-padding-start: 0px;
+    font-family: var(--ff-texto);
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html & body
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with width and height in 100%, with this you can use height of 100% in your containers.
+|
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html (Not obligatory)
+|   ---------------------------------------------------------------------------------
+|   
+|   Scroll smooth & friendly :)
+|
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body
+|   ---------------------------------------------------------------------------------
+|   
+|   Body with position relative and overflow-x hidden for responsive mode and does not allow horizontal side scrolling.
+|
+*/
+body{
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > div
+|   ---------------------------------------------------------------------------------
+|   
+|   All div tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>div {
+    overflow: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > section
+|   ---------------------------------------------------------------------------------
+|   
+|   All section tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>section {
+    overflow: hidden !important;
+}
