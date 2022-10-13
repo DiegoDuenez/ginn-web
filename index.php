@@ -7,6 +7,11 @@
     
     <?php include 'templates/components/banner.php'; ?>
 
+    <?php include 'templates/components/navbar.php'; ?>
+
+    <?php include 'templates/layouts/parques.php'; ?>
+
+
     <?php include 'templates/scripts.php'; ?>
 
 </body>

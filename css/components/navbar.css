@@ -1,0 +1,78 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Navbar)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width:100%;
+    top: 0;
+    height: 8rem;
+    transition:  400ms;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    z-index: 3;
+}
+
+
+.navbar__content{
+    display: flex;
+    width: max-content;
+    height: 100%;
+    gap: 1rem;
+}
+
+.navbar__logo{
+    width: 10rem;
+    height: 100%;
+}
+
+.navbar__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navbar__links{
+    display: flex;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    display: none;
+}
+
+.navbar__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    transition: 400ms;
+    height: 100%;
+    text-align: center;
+}   
+
+.open{
+    display: flex;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.navbar__button{
+    width: 3rem;
+    height: 100%;
+    font-size: 2rem;
+    color: var(--color-white);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

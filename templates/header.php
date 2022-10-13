@@ -5,7 +5,13 @@
 <meta name="description" content="">
 <title>GINN | Grupo Inmobiliario del Norte</title>
 <!--===== FAVICON =====-->
-
+<link rel="apple-touch-icon" sizes="76x76" href="resources/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
+<link rel="manifest" href="resources/favicon/site.webmanifest">
+<link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg" color="#323031">
+<meta name="msapplication-TileColor" content="#323031">
+<meta name="theme-color" content="#323031">
 <!--===== FONTAWESOME ICONS =====-->
 <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 <!--====== AOS CSS ======-->

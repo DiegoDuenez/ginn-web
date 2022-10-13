@@ -1,0 +1,26 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Banner)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+.button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: 400ms;
+    /* transition-timing-function: ease-in-out; */
+    width: 15rem;
+}
+
+
+.button:hover{
+    width: 17rem;
+}

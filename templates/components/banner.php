@@ -1,9 +1,6 @@
 <div class="banner">
 
-    <div class="banner__logo">
-        <a href="./"><img src="resources/img/logotipo.png" alt="GINN" title="GINN"></a> 
-    </div>
-
+   
     <div class="container-glider">
 
         <div class="glider">
@@ -29,7 +26,7 @@
         <p class="banner__text animate__animated animate__fadeIn animate__delay-2s">Inversiones en puntos estratégicos</p>
     </div>
 
-    <div class="banner__cards">
+    <div class="banner__cards animate__animated animate__fadeInUp animate__delay-1s" >
         <div class="banner__card">
 
             <p class="banner__card-title">Ubicación Estratégica</p>

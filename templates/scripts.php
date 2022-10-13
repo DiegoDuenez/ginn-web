@@ -3,6 +3,8 @@
 <script src="libs/aos/dist/aos.js"></script>
 <script src="libs/sweetalert2/sweetalert2.all.min.js"></script>     
 <script src="js/banner.js"></script>     
+<script src="js/index.js"></script>     
+
 <script>
     AOS.init();
 </script>
