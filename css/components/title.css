@@ -1,0 +1,19 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Title)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+.title{
+    font-family: var(--ff-titulo);
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    font-size: var(--fs-titulo);
+}
+
+.title--dark{
+    color: var(--color-gray-900);
+}

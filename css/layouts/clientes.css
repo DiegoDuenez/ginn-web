@@ -1,0 +1,18 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Clientes)
+|   ---------------------------------------------------------------------------------
+|   
+|
+*/
+
+.clientes{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray-50);
+    height: max-content;
+}

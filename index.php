@@ -11,6 +11,12 @@
 
     <?php include 'templates/layouts/parques.php'; ?>
 
+    <?php include 'templates/layouts/nosotros.php'; ?>
+
+    <?php include 'templates/layouts/espacios.php'; ?>
+
+    <?php include 'templates/layouts/clientes.php'; ?>
+
 
     <?php include 'templates/scripts.php'; ?>
 

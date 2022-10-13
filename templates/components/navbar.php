@@ -9,11 +9,11 @@
 
         <div class="navbar__links">
             <a href="#" class="navbar__link up">Inicio</a>
-            <a href="#" class="navbar__link up">Parques Industriales</a>
-            <a href="#" class="navbar__link up">Nosotros</a>
-            <a href="#" class="navbar__link up">Espacios disponibles</a>
-            <a href="#" class="navbar__link up">Clientes</a>
-            <a href="#" class="navbar__link up">Contacto</a>
+            <a href="#parquesindustriales" class="navbar__link up">Parques Industriales</a>
+            <a href="#nosotros" class="navbar__link up">Nosotros</a>
+            <a href="#espaciosdisponibles" class="navbar__link up">Espacios disponibles</a>
+            <a href="#clientes" class="navbar__link up">Clientes</a>
+            <a href="#contacto" class="navbar__link up">Contacto</a>
 
 
         </div>
