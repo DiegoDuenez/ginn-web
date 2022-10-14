@@ -15,7 +15,6 @@
             <a href="#clientes" class="navbar__link up">Clientes</a>
             <a href="#contacto" class="navbar__link up">Contacto</a>
 
-
         </div>
     
         <button class="navbar__button" type="button" id="navbar__button">

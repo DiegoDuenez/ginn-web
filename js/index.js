@@ -26,6 +26,13 @@ $("#navbar__button").click(function(e){
     
 })
 
+$('#menu__button').click(function(){
+    $("#navbar__button").empty()
+    $("#navbar__button").append(`
+        <i class="fa-solid fa-bars"></i>
+    `)
+})
+
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop

@@ -1,5 +1,4 @@
 <main class="banner">
-
    
     <div class="container-glider">
 

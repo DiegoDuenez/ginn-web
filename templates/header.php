@@ -19,7 +19,7 @@
 <!--====== GLIDE CSS ======-->
 <link rel="stylesheet" href="libs/glider/glider.min.css">
 <!--====== MENU CSS ======-->
-<!-- <link rel="stylesheet" href="libs/menu/menu.min.css"> -->
+<link rel="stylesheet" href="libs/menu/css/menu.min.css">
 <!--====== MAIN CSS ======-->
 <link rel="stylesheet" href="css/index.css">
 <!--====== GOOGLE RECAPTCHA ======-->

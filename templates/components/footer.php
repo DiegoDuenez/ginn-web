@@ -9,7 +9,7 @@
     </div>
 
     <div class="footer__info">
-        <a href="https://goo.gl/maps/ZynwxJ1agpcAzvbH8">C. de Piedras Negras 422, Parque Industrial, 35078 Gómez Palacio, Dgo.</a>
+        <a href="https://goo.gl/maps/ZynwxJ1agpcAzvbH8" target="_blank">C. de Piedras Negras 422, Parque Industrial, 35078 Gómez Palacio, Dgo.</a>
         
     </div>
 
@@ -19,9 +19,9 @@
     </div>
 
     <div class="footer__social">
-        <a href="#"><i class="fa-brands fa-square-facebook"></i></a> 
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> 
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
     </div>
 
