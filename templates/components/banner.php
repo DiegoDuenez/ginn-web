@@ -25,20 +25,20 @@
         <p class="banner__text animate__animated animate__fadeIn animate__delay-2s">Inversiones en puntos estratégicos</p>
     </div>
 
-    <div class="banner__cards animate__animated animate__fadeInUp animate__delay-1s" >
-        <div class="banner__card">
+    <div class="banner__cards " >
+        <div class="banner__card  animate__animated animate__fadeInUp animate__delay-1s">
 
             <p class="banner__card-title">Ubicación Estratégica</p>
-            <p class="banner__card-texxt">Inversiones de crecimiento</p>
+            <p class="banner__card-texxt">Inversiones de crecimiento.</p>
              
         </div>
-        <div class="banner__card banner__card--gray-100">
+        <div class="banner__card banner__card--gray-100  animate__animated animate__fadeInUp animate__delay-2s">
             <p class="banner__card-title">Círculos de Crecimiento</p>
-            <p class="banner__card-texxt">Alrededores con futuro</p>
+            <p class="banner__card-texxt">Alrededores con futuro.</p>
         </div>
-        <div class="banner__card banner__card--gray-200">
+        <div class="banner__card banner__card--gray-200  animate__animated animate__fadeInUp animate__delay-3s">
             <p class="banner__card-title">Sólida Infraestructura</p>
-            <p class="banner__card-texxt">Construyendo con firmeza</p>
+            <p class="banner__card-texxt">Construyendo con firmeza.</p>
         </div>
 
     </div>

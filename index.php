@@ -11,6 +11,11 @@
     <?php include 'templates/components/menu.php'; ?>
     <!--===== MENU END =====-->
 
+    <!--===== MENU START =====-->
+    <?php include 'templates/components/modal.php'; ?>
+    <!--===== MENU END =====-->
+
+
     <!--===== BANNER START =====-->
     <?php include 'templates/components/banner.php'; ?>
     <!--===== BANNER END =====-->

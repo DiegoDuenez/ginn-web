@@ -5,9 +5,36 @@
 <script src="libs/menu/js/menu.min.js"></script>
 <script src="js/banner.js"></script>     
 <script>
-    Menu = new Menu({options: {element: '.menu', openWith: '.navbar__button', closeWith: '.menu__button', size:'20rem', from: 'right'}})
-    Menu.init();
-    Menu.closeWith('.menu__link')
+
+    menu = new Menu({options: {element: '.menu', openWith: '.navbar__button', closeWith: '.menu__button', size:'20rem', from: 'right',
+        callbackOnOpen: function(){
+            if($(window).width() <= 600)
+            {
+                $('body').css('overflow', 'hidden')
+            }
+        },
+        callbackOnClose: function(){
+            if($(window).width() <= 600)
+            {
+                $('body').css('overflow', 'auto')
+            }
+        } 
+    }})
+    
+    menu.init();
+    menu.closeWith('.menu__link')
+
+    modal = new Menu({options: {element: '.modal', openWith: 'h2', closeWith: 'h3', size:'lg', from: 'right', 
+        callbackOnOpen: function(){
+            $('body').css('overflow', 'hidden')
+        },
+        callbackOnClose: function(){
+            $('body').css('overflow', 'auto')
+        } 
+    }})
+    modal.init()
+
+
     AOS.init();
 </script>
 <script src="js/index.js"></script>     
