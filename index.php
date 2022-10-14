@@ -17,6 +17,10 @@
 
     <?php include 'templates/layouts/clientes.php'; ?>
 
+    <?php include 'templates/layouts/contacto.php'; ?>
+
+    <?php include 'templates/components/footer.php'; ?>
+
 
     <?php include 'templates/scripts.php'; ?>
 

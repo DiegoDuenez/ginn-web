@@ -13,6 +13,80 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: var(--color-gray-50);
+    background-color: var(--color-white);
     height: max-content;
+    gap: 3rem;
 }
+
+.clientes__container{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 10rem;
+}
+    
+    @media screen and (min-width: 657px) and (max-width: 1070px) {
+        .clientes__container{
+            padding: 0 5rem;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 656px) {
+        .clientes__container{
+            padding: 0 1rem;
+        }
+    }
+
+.clientes__image{
+    width: 15rem;
+    height: 10rem;
+}
+
+.clientes__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 
+.clientes__grid {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    grid-gap: 1rem;
+    width: 100%;
+}
+
+.clientes__grid > div {
+    background: black;
+    padding: 1rem;
+}
+
+.clientes__grid > div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
+
+.clientes__grid > div {
+    display: grid;
+}
+
+.clientes__grid > div::before,
+.clientes__grid > div > img {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.clientes__grid > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.clientes__container{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: red;
+} */

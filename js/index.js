@@ -46,3 +46,16 @@ window.addEventListener("scroll", function () {
     lastScrollTop = scrollTop
 })
 
+
+$('.espacios__estado').click(function(){
+    clearTabs(this)
+  })
+  
+function clearTabs(tab){
+    let tabs = document.getElementsByClassName("espacios__estado");
+    for (i = 0; i < tabs.length; i++) {
+        $(tabs[i]).removeClass(`espacios__estado--active`)
+    }
+    $(tab).addClass(`espacios__estado--active`)    
+}
+

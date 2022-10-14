@@ -17,3 +17,11 @@
 .title--dark{
     color: var(--color-gray-900);
 }
+
+.subtitle{
+    font-family: var(--ff-texto);
+    color: var(--color-gray-900);
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+}

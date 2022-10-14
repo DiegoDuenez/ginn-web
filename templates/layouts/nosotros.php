@@ -1,6 +1,6 @@
 <section class="nosotros" id="nosotros">
 
-    <div class="nosotros__container">
+    <div class="nosotros__container nosotros__container--reverse">
 
         <div class="nosotros__content">
             <img src="resources/img/mision-img.png" alt="Parque">

@@ -22,6 +22,14 @@
     width: 100%;
     height: max-content;
 }
+    @media screen and (min-width: 300px) and (max-width: 750px) {
+        .nosotros__container{
+            flex-direction: column;
+        }
+        .nosotros__container--reverse{
+            flex-direction: column-reverse;
+        }
+    }
 
 .nosotros__content{
     display: flex;
@@ -30,8 +38,12 @@
     align-items: center;
     gap: 1rem;
     justify-content: center;
-    
 }
+    @media screen and (min-width: 300px) and (max-width: 750px) {
+        .nosotros__content{
+            width: 100%;
+        }
+    }
 
 .nosotros__content--padding{
     padding: 3rem;

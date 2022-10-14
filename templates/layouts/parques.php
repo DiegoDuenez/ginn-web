@@ -23,6 +23,7 @@
     <div class="parques__container" data-aos='fade-right'>
 
         <div class="parques__card">
+            
             <div class="parques__card-body">
                 <h2>Parque la encantada</h2>
                 <p>Nuestras naves listas en el momento que tu lo indiques.</p>
@@ -39,7 +40,7 @@
 
     </div>
 
-    <div class="parques__container parques__container--padding">
+    <div class="parques__container parques__container--padding" id="parquesMapa">
 
         <div class="parques__content" data-aos='fade-up'>
             <img src="resources/img/mapa-mexico.png" alt="Mapa">

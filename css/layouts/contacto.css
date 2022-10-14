@@ -1,0 +1,71 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Contacto)
+|   ---------------------------------------------------------------------------------
+|   
+|
+*/
+
+.contacto{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: var(--color-gray-900);
+    height: max-content;
+}
+    @media screen and (min-width: 300px) and (max-width: 630px) {
+        .contacto{
+            padding: 2rem;
+        }
+    }
+
+.contacto__content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 630px) {
+        .contacto__content{
+            width: 100%;
+        }
+    }
+
+.contacto__form-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 630px) {
+        .contacto__form{
+            width: 100%;
+        }
+    }
+
+
+.contacto__content iframe{
+    width: 100%;
+    height: 100%;
+}
+    @media screen and (min-width: 300px) and (max-width: 630px) {
+        #mapa{
+            display: none;
+        }
+    }
+
+.contacto__form .button{
+    align-self: center;
+}
+
+   

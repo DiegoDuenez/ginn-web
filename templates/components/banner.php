@@ -1,4 +1,4 @@
-<div class="banner">
+<main class="banner">
 
    
     <div class="container-glider">
@@ -45,4 +45,4 @@
     </div>
 
 
-</div>
+</main>

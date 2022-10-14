@@ -25,30 +25,62 @@
     width: 100%;
     height: max-content;
 }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .parques__container{
+            flex-direction: column;
+        }
+    }
 
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+        .parques__container#parquesMapa{
+            flex-direction: column;
+        }
+    }
 
 .parques__container--padding{
     padding: 5rem;
     gap: 2rem;
 }
 
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+        .parques__container--padding#parquesMapa{
+            padding: 1rem;
+            gap: 1rem;
+        }
+    }
+
 .parques__container--end{
     justify-content: flex-end;
-
 }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .parques__container--end{
+            justify-content: unset;
+        }
+    }
 
 .parques__card{
     display: flex;
     width: max-content;
     height: max-content;
 }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .parques__card{
+            width: 100%;
+            flex-direction: column;
+        }
+    }
 
 .parques__card-image{
     width: 25rem;
 }
-    @media screen and (min-width: 300px) and (max-width: 1050px) {
+    @media screen and (min-width: 651px) and (max-width: 1050px) {
         .parques__card-image{
             width: 50%;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .parques__card-image{
+            width: 100%;
         }
     }
 
@@ -63,7 +95,6 @@
     width:40rem;
     align-self: center;
     height: max-content;
-    /* background-color: rgb(64, 0, 255); */
     background-color: var(--color-gray-50);
     flex-direction: column;
     align-items: center;
@@ -71,9 +102,15 @@
     gap: 1rem;
     padding: 2rem;
 }
-    @media screen and (min-width: 300px) and (max-width: 1050px) {
+    @media screen and (min-width: 651px) and (max-width: 1050px) {
         .parques__card-body{
             width: 50%;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .parques__card-body{
+            width: 100%;
+            order: 1;
         }
     }
 
@@ -100,6 +137,13 @@
     width: 40%;
 }
 
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+        .parques__content{
+            width: 100%;
+        }
+    }
+
+
 .parques__content img{
     width: 100%;
     height: 100%;
@@ -112,10 +156,21 @@
     font-weight: normal;
     font-size: 4rem;
     margin-top: 4rem;
+    text-align: center;
 }
+    @media screen and (min-width: 300px) and (max-width: 490px) {
+        .parques__content h2{
+            font-size: 2rem;
+            margin: 0;
+        }
+    }
 
 .parques__content p{
     color: var(--color-white);
     font-size: 2rem;
-
 }
+    @media screen and (min-width: 300px) and (max-width: 490px) {
+        .parques__content p{
+            font-size: 1rem;
+        }
+    }
