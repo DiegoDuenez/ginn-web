@@ -19,8 +19,8 @@
     </div>
 
     <div class="footer__social">
-        <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> 
-        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Ginn_mexico/100070628149793/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> 
+        <a href="https://www.instagram.com/Ginn_mexico/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
     </div>
