@@ -33,6 +33,13 @@ $('#menu__button').click(function(){
     `)
 })
 
+$('.menu__link').click(function(){
+    $("#navbar__button").empty()
+    $("#navbar__button").append(`
+        <i class="fa-solid fa-bars"></i>
+    `)
+})
+
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
@@ -47,11 +54,25 @@ window.addEventListener("scroll", function () {
         $('.navbar').css('padding', '1rem 4rem')
         $('.navbar').css('background-color', 'transparent')
 
-
     }
-
     lastScrollTop = scrollTop
 })
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if(currentScrollPos > 600){
+        if (prevScrollpos > currentScrollPos) {
+            $('.navbar').css('top', '0')
+        } else {
+            $('.navbar').css('top', '-100px')
+
+        }
+    prevScrollpos = currentScrollPos;
+    }
+}
 
 
 $('.espacios__estado').click(function(){
