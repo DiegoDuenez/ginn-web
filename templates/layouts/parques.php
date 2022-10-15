@@ -1,4 +1,4 @@
-<secton class="parques" id="parquesindustriales">
+<section class="parques" id="parquesindustriales">
 
     <div class="parques__container  parques__container--end">
 
@@ -43,4 +43,4 @@
    
     
 
-</secton>
+</section>
