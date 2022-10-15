@@ -4,7 +4,22 @@
 <script src="libs/sweetalert2/sweetalert2.all.min.js"></script>     
 <script src="libs/menu/js/menu.min.js"></script>
 <script src="js/banner.js"></script>     
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
+
+    let swiper = new Swiper(".mySwiper", {
+        direction: 'vertical',
+        autoplay: {
+            delay: 3000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            // type: "fraction",
+        },
+        slidesPerView: 1,
+        mousewheel: true,
+    });
 
     menu = new Menu({options: {element: '.menu', openWith: '.navbar__button', closeWith: '.menu__button', size:'20rem', from: 'right',
         callbackOnOpen: function(){
@@ -24,7 +39,7 @@
     menu.init();
     menu.closeWith('.menu__link')
 
-    modal = new Menu({options: {element: '.modal', openWith: 'h2', closeWith: 'h3', size:'lg', from: 'right', 
+    modal = new Menu({options: {element: '.modal', openWith: '.espacios__card', closeWith: '#modalButtonCerrar', size:'lg', from: 'right', 
         callbackOnOpen: function(){
             $('body').css('overflow', 'hidden')
         },

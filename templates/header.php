@@ -15,6 +15,7 @@
 <!--===== FONTAWESOME ICONS =====-->
 <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 <!--====== AOS CSS ======-->
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 <link rel="stylesheet" href="libs/aos/dist/aos.css">
 <!--====== GLIDE CSS ======-->
 <link rel="stylesheet" href="libs/glider/glider.min.css">
