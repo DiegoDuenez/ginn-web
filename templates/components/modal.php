@@ -8,7 +8,7 @@
 
     <div class="modal__container">
 
-      <h2 class="modal__title">Parque Industrial Oriente Torreón CEDIS III</h2>
+      <h2 class="modal__title" id="modal__title">Parque Industrial Oriente Torreón CEDIS III</h2>
 
       <h3 class="modal__subtitle">Datos generales</h3>
 

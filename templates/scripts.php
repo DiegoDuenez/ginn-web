@@ -7,6 +7,17 @@
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
 
+    
+        const buttons = document.getElementsByClassName("buttonMasInfo");
+        var modalTitle
+        const buttonPressed = e => {
+            modalTitle = $(e.target).attr('data-titulo');  
+        }
+
+        for (let button of buttons) {
+            button.addEventListener("click", buttonPressed);
+        }
+
     let swiper = new Swiper(".mySwiper", {
         direction: 'vertical',
         autoplay: {
@@ -41,13 +52,15 @@
     modal = new Menu({options: {element: '.modal', openWith: '.espacios__card', closeWith: '#modalButtonCerrar', size:'lg', from: 'right', 
         callbackOnOpen: function(){
             $('body').css('overflow', 'hidden')
+            $('#modal__title').text(modalTitle)
+           
         },
         callbackOnClose: function(){
             $('body').css('overflow', 'auto')
         } 
     }})
     modal.init()
-
+    modal.openWith('.buttonMasInfo')
 
     AOS.init();
 </script>
