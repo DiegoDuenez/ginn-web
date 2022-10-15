@@ -15,7 +15,6 @@
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
-            // type: "fraction",
         },
         slidesPerView: 1,
         mousewheel: true,
