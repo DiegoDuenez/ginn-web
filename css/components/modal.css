@@ -38,13 +38,6 @@
         }
     }
 
-
-  /* Handle on hover */
-/* .modal__col::-webkit-scrollbar-thumb:hover {
-    background: #1c9ea8;
-  } */
-
-
 .modal__col--no-scroll{
     overflow: hidden;
 }
