@@ -27,5 +27,18 @@ function slideAutoPaly(glider, selector, delay = 3000, repeat = true) {
         }, delay);
     }
     slide();
+    var element = document.querySelector(selector);
+    element.addEventListener('mouseover', (event) => {
+        if (pause) {
+            clearInterval(autoplay);
+            pause = false;
+        }
+    }, 300);
+    element.addEventListener('mouseout', (event) => {
+        if (!pause) {
+            slide();
+            pause = true;
+        }
+    }, 300);
   
 }
