@@ -38,19 +38,6 @@
 
       <p class="modal__text">Cedis III (Parque Industrial Oriente, Torreon Coah.)</p>
 
-      <!-- <div class="modal__row">
-
-        <div class="modal__image">
-          <img src="resources/img/leed.png" alt="Leed">
-        </div>
-        <div class="modal__content">
-          La Certificación LEED (Liderazgo en Energía y Diseño Ambiental, por sus siglas en inglés)
-          es un sistema de certificación con reconocimiento internacional para edificios sustentables 
-          creado por el Consejo de Edificación Sustentable de Estados Unidos (U.S. Green Building Council).
-        </div>
-
-      </div> -->
-
     </div>
 
     <div class="modal__container modal__container--p-0">
