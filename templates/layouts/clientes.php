@@ -44,8 +44,6 @@
             <img src="resources/img/clientes/tec-monterrey.png" alt="Tecnológico de Monterrey" title="Tecnológico de Monterrey"> 
         </div>
        
-        
-        
     </div>
    
 
