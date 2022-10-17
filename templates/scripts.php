@@ -4,19 +4,20 @@
 <script src="libs/sweetalert2/sweetalert2.all.min.js"></script>     
 <script src="libs/menu/js/menu.min.js"></script>
 <script src="js/banner.js"></script>     
+<script src="js/mail.js"></script>     
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
 
     
-        const buttons = document.getElementsByClassName("buttonMasInfo");
-        var modalTitle
-        const buttonPressed = e => {
-            modalTitle = $(e.target).attr('data-titulo');  
-        }
+    const buttons = document.getElementsByClassName("buttonMasInfo");
+    var modalTitle
+    const buttonPressed = e => {
+        modalTitle = $(e.target).attr('data-titulo');  
+    }
 
-        for (let button of buttons) {
-            button.addEventListener("click", buttonPressed);
-        }
+    for (let button of buttons) {
+        button.addEventListener("click", buttonPressed);
+    }
 
     let swiper = new Swiper(".mySwiper", {
         direction: 'vertical',
@@ -64,4 +65,5 @@
 
     AOS.init();
 </script>
+
 <script src="js/index.js"></script>     

@@ -15,11 +15,10 @@
                     <input type="text" class="input" name="nombre" id="nombre" placeholder="Nombre y apellido *">
                     <input type="text" class="input" name="telefono" id="telefono" placeholder="Teléfono *">
                 </div>
-                
                 <input type="text" class="input" name="correo" id="correo" placeholder="Correo electrónico *">
                 <textarea name="mensaje" id="mensaje" rows="3" class="input" placeholder="Mensaje *"></textarea>
-                <!-- <div class="g-recaptcha" data-sitekey="6Le3EUQiAAAAAM2-CW0D3s573k_JT3T8_hBjz8sp" style="margin-top: 2%; margin:0 auto"></div> -->
-                <p style="font-family: MavenPro; color: var(--color-gold); text-align: center; font-weight: bold; " id="status"></p>
+                <div class="g-recaptcha" data-sitekey="6LftOIoiAAAAAA3g2eIKQz-qTZm7RcWsSj_X-xoE" style="margin-top: 2%; margin:0 auto"></div>
+                <p style="font-family: var(--ff-texto); color: var(--color-white); text-align: center; font-weight: bold; " id="status"></p>
                 <button type="button" class="button" onclick="enviar()">ENVIAR</button>
             </form>
             

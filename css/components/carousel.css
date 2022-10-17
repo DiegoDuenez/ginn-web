@@ -30,6 +30,20 @@
   object-fit: cover;
 }
 
+.swiper-button-prev {
+  left: 63% !important;
+  top: 0 !important;
+  transform: rotate(90deg);
+  transform-origin: left center;
+}
+.swiper-button-next {
+  left: 63% !important;
+  bottom: 0 !important;
+  transform: rotate(90deg);
+  transform-origin: left center;
+
+}
+
 
 .slide_1 {
   width: 100%;
