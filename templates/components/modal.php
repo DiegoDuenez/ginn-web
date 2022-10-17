@@ -116,16 +116,9 @@
         <div class="swiper-slide slide_1">
           <img src="resources/img/mision-img.png" alt="">
         </div>
-        <!-- <div class="swiper-slide slide_2">Slide 2</div>
-        <div class="swiper-slide slide_3">Slide 3</div>
-        <div class="swiper-slide slide_4">Slide 4</div>
-        <div class="swiper-slide slide_5">Slide 5</div> -->
       </div>
       <div class="swiper-pagination"></div>
-        <!-- <div class="swiper-button-prev"></div>
-       <div class="swiper-button-next"></div> -->
     </div>
-
 
   </div>
 
