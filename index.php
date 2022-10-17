@@ -15,7 +15,6 @@
     <?php include 'templates/components/modal.php'; ?>
     <!--===== MENU END =====-->
 
-
     <!--===== BANNER START =====-->
     <?php include 'templates/components/banner.php'; ?>
     <!--===== BANNER END =====-->

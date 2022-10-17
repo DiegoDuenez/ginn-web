@@ -8,7 +8,6 @@
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
 
-    
     const buttons = document.getElementsByClassName("buttonMasInfo");
     var modalTitle
     const buttonPressed = e => {
