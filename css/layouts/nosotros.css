@@ -6,6 +6,8 @@
 |
 */
 
+
+
 .nosotros{
     position: relative;
     width: 100%;
@@ -59,5 +61,4 @@
     color: var(--color-white);
     line-height: 1.5rem;
     text-align: justify;
-
 }

@@ -6,6 +6,8 @@
 |
 */
 
+
+
 .parques{
     position: relative;
     width: 100%;
@@ -30,24 +32,24 @@
             flex-direction: column;
         }
     }
-
     @media screen and (min-width: 300px) and (max-width: 900px) {
         .parques__container#parquesMapa{
             flex-direction: column;
         }
     }
 
+
 .parques__container--padding{
     padding: 5rem;
     gap: 2rem;
 }
-
     @media screen and (min-width: 300px) and (max-width: 900px) {
         .parques__container--padding#parquesMapa{
             padding: 1rem;
             gap: 1rem;
         }
     }
+
 
 .parques__container--end{
     justify-content: flex-end;
@@ -57,6 +59,7 @@
             justify-content: unset;
         }
     }
+
 
 .parques__card{
     display: flex;
@@ -69,6 +72,7 @@
             flex-direction: column;
         }
     }
+
 
 .parques__card-image{
     width: 25rem;
@@ -83,6 +87,7 @@
             width: 100%;
         }
     }
+
 
 .parques__card-image img{
     width: 100%;
@@ -114,12 +119,12 @@
         }
     }
 
+
 .parques__card-body h2{
     font-family: var(--ff-titulo);
     color: white;
     font-weight: normal;
 }
-
 
 .parques__card-body p{
     color: white;
@@ -165,6 +170,7 @@
         }
     }
 
+    
 .parques__content p{
     color: var(--color-white);
     font-size: 2rem;

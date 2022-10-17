@@ -6,6 +6,7 @@
 */
 
 
+
 .banner{
     position: relative;
     width: 100%;
@@ -15,8 +16,6 @@
     flex-direction: column;
     background-color: var(--color-gray-900);
 }
-
-    
     @media screen and (min-width: 1025px) and (max-width: 1200px) {
         
     }
@@ -29,6 +28,7 @@
     @media screen and (min-width: 320px) and (max-width: 480px) {
        
     }
+
 
 .banner__mask{
     display: flex;
@@ -74,6 +74,7 @@
         }
     }
 
+
 .banner__text{
     font-family: var(--ff-texto);
     color: var(--color-white);
@@ -99,6 +100,7 @@
             display: none;
         }
     }
+
 
 .banner__card{
     display: flex;
@@ -141,13 +143,13 @@
     top: 50%;
     color: var(--color-black);
 }
-
     @media screen and (min-width: 300px) and (max-width: 550px) {
         .glider-prev, .glider-next{
             display: none;
         }
     }
 
+    
 .glider-prev{
     margin-left: 2rem;
 }

@@ -5,6 +5,8 @@
 |
 */
 
+
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -13,7 +15,6 @@
     align-items: flex-end;
     display: none
 }
-
     @media screen and (min-width: 300px) and (max-width: 1160px) {
         .menu{
             display: flex;
@@ -25,6 +26,7 @@
         }
     }
 
+    
 .menu__button{
     width: 3rem;
     font-size: 2rem;

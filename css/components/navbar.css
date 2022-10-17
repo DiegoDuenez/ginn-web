@@ -5,6 +5,8 @@
 |
 */
 
+
+
 .navbar{
     display: flex;
     position: fixed;
@@ -57,7 +59,6 @@
     height: 100%;
     text-align: center;
 }   
-
     @media screen and (min-width: 300px) and (max-width: 1160px) {
         .navbar__link{
             display: none;

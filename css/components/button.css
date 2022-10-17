@@ -6,6 +6,7 @@
 */
 
 
+
 .button{
     background-color: transparent;
     outline: none;
@@ -16,10 +17,8 @@
     color: var(--color-white);
     cursor: pointer;
     transition: 400ms;
-    /* transition-timing-function: ease-in-out; */
     width: 15rem;
 }
-
 
 .button:hover{
     width: 17rem;

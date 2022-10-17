@@ -6,6 +6,8 @@
 |
 */
 
+
+
 .contacto{
     position: relative;
     width: 100%;
@@ -21,6 +23,7 @@
         }
     }
 
+
 .contacto__content{
     display: flex;
     flex-direction: column;
@@ -34,6 +37,7 @@
             width: 100%;
         }
     }
+
 
 .contacto__form-container{
     display: flex;
@@ -64,6 +68,7 @@
             display: none;
         }
     }
+    
 
 .contacto__form .button{
     align-self: center;
