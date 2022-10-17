@@ -15,7 +15,7 @@
             <img src="resources/img/clientes/fives.png" alt="fives" title="fives">
         </div>
         <div class="clientes__image" data-aos='zoom-in'>
-            <img src="resources/img/clientes/hyundai.png" alt="Hyundai" title="Hyundai">
+            <img src="resources/img/clientes/hyundai.png" alt="Hyundai Steel" title="Hyundai Steel">
         </div>
 
         <div class="clientes__image" data-aos='zoom-in'>
