@@ -14,10 +14,11 @@
 <meta name="theme-color" content="#323031">
 <!--===== FONTAWESOME ICONS =====-->
 <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
-<!--====== AOS CSS ======-->
+<!--====== SWIPER CSS ======-->
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<!--====== AOS CSS ======-->
 <link rel="stylesheet" href="libs/aos/dist/aos.css">
-<!--====== GLIDE CSS ======-->
+<!--====== GLIDER CSS ======-->
 <link rel="stylesheet" href="libs/glider/glider.min.css">
 <!--====== MENU CSS ======-->
 <link rel="stylesheet" href="libs/menu/css/menu.min.css">

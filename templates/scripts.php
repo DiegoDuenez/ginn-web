@@ -1,11 +1,18 @@
+<!--====== JQUERY ======-->
 <script src="libs/jquery/jquery.min.js"></script>
+<!--====== GLIDER JS ======-->
 <script src="libs/glider/glider.min.js"></script>
+<!--====== AOS JS ======-->
 <script src="libs/aos/dist/aos.js"></script>
-<script src="libs/sweetalert2/sweetalert2.all.min.js"></script>     
+<!--====== SWEETALERT2 JS ======-->
+<script src="libs/sweetalert2/sweetalert2.all.min.js"></script>
+<!--====== MENU JS ======-->
 <script src="libs/menu/js/menu.min.js"></script>
-<script src="js/banner.js"></script>     
-<script src="js/mail.js"></script>     
+<!--====== SWIPER JS ======-->
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!--====== MAIN JS ======-->
+<script src="js/banner.js"></script>     
+<script src="js/mail.js"></script>
 <script>
 
     const buttons = document.getElementsByClassName("buttonMasInfo");
@@ -45,7 +52,6 @@
             }
         } 
     }})
-    
     menu.init();
     menu.closeWith('.menu__link')
 
@@ -64,5 +70,4 @@
 
     AOS.init();
 </script>
-
 <script src="js/index.js"></script>     
