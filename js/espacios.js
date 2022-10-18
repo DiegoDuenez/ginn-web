@@ -22,20 +22,23 @@ function cargarProyectosCiudad(id_ciudad){
 
             $('#espaciosContainer').empty()
             for(let i = 0; i < json.length; i++){
-                $('#espaciosContainer').append(`
-                <div class="espacios__card" data-aos="fade-up" onclick="cardClick(this)"  data-id="${json[i].idcat_proyectos}" data-titulo="${json[i].nombre2}">
-                    <div class="espacios__card-header">
-                        <img src="admin/${json[i].img_principal}" alt="proyecto">
-                    </div>  
-                    <div class="espacios__card-body">
-                        <p>${json[i].nombre}</p>
-                        <p class="espacios__card-title">${json[i].nombre2}</p>
-                        <p><i class="fa-solid fa-location-dot"></i> ${json[i].ubicacion}</p>
-                        <p><img src="resources/img/terreno.png" width="20px"> ${json[i].m2} m2</p>
-                        <p><img src="resources/img/terreno.png" width="20px"> ${json[i].m2_oficina} m2 de oficinas</p>
-                    </div>  
-                </div>
-                `)
+                $('#espaciosContainer').append(
+                    `
+                    <div class="espacios__card" data-aos="fade-up" onclick="cardClick(this)" 
+                    data-id="${json[i].idcat_proyectos}" data-titulo="${json[i].nombre2}">
+                        <div class="espacios__card-header">
+                            <img src="admin/${json[i].img_principal}" alt="proyecto">
+                        </div>  
+                        <div class="espacios__card-body">
+                            <p>${json[i].nombre}</p>
+                            <p class="espacios__card-title">${json[i].nombre2}</p>
+                            <p><i class="fa-solid fa-location-dot"></i> ${json[i].ubicacion}</p>
+                            <p><img src="resources/img/terreno.png" width="20px"> ${json[i].m2} m2</p>
+                            <p><img src="resources/img/terreno.png" width="20px"> ${json[i].m2_oficina} m2 de oficinas</p>
+                        </div>  
+                    </div>
+                    `
+                )
             }
             
         },
