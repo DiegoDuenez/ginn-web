@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <!--===== HEADER START =====-->
-    <?php include 'templates/header.php'; ?>
+    <?php include 'templates/header.html'; ?>
     <!--===== HEADER END =====-->
 </head>
 <body>
     
     <!--===== MENU START =====-->
-    <?php include 'templates/components/menu.php'; ?>
+    <?php include 'templates/components/menu.html'; ?>
     <!--===== MENU END =====-->
 
     <!--===== MENU START =====-->
-    <?php include 'templates/components/modal.php'; ?>
+    <?php include 'templates/components/modal.html'; ?>
     <!--===== MENU END =====-->
 
     <!--===== BANNER START =====-->
-    <?php include 'templates/components/banner.php'; ?>
+    <?php include 'templates/components/banner.html'; ?>
     <!--===== BANNER END =====-->
 
     <!--===== NAVBAR START =====-->
-    <?php include 'templates/components/navbar.php'; ?>
+    <?php include 'templates/components/navbar.html'; ?>
     <!--===== NAVBAR END =====-->
 
     <!--===== PARQUES START =====-->
@@ -28,7 +28,7 @@
     <!--===== PARQUES END =====-->
 
     <!--===== NOSOTROS START =====-->
-    <?php include 'templates/layouts/nosotros.php'; ?>
+    <?php include 'templates/layouts/nosotros.html'; ?>
     <!--===== NOSOTROS END =====-->
 
     <!--===== ESPACIOS START =====-->
@@ -36,19 +36,19 @@
     <!--===== ESPACIOS END =====-->
 
     <!--===== CLIENTES START =====-->
-    <?php include 'templates/layouts/clientes.php'; ?>
+    <?php include 'templates/layouts/clientes.html'; ?>
     <!--===== CLIENTES END =====-->
 
     <!--===== CONTACTO START =====-->
-    <?php include 'templates/layouts/contacto.php'; ?>
+    <?php include 'templates/layouts/contacto.html'; ?>
     <!--===== CONTACTO END =====-->
 
     <!--===== FOOTER START =====-->
-    <?php include 'templates/components/footer.php'; ?>
+    <?php include 'templates/components/footer.html'; ?>
     <!--===== FOOTER END =====-->
 
     <!--===== SCRIPTS START =====-->
-    <?php include 'templates/scripts.php'; ?>
+    <?php include 'templates/scripts.html'; ?>
     <!--===== SCRIPTS END =====-->
 
 </body>
