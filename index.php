@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <!--===== HEADER START =====-->
     <?php include 'templates/header.html'; ?>
     <!--===== HEADER END =====-->
+    
 </head>
 <body>
     
