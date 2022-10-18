@@ -27,8 +27,8 @@ function enviar() {
                         text: "Espera nuestra respuesta pronto",
                         icon: 'success',
                         confirmButtonText: "Ok",
-                        iconColor: '#032F3C',
-                        confirmButtonColor: "#032F3C",
+                        iconColor: '#323031',
+                        confirmButtonColor: "#323031",
                         }
                     )
                 
