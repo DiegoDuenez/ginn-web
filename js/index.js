@@ -76,6 +76,7 @@ window.onscroll = function() {
 
 
 $('.espacios__estado').click(function(){
+    cargarProyectosCiudad($(this).attr('data-id'))
     clearTabs(this)
   })
   

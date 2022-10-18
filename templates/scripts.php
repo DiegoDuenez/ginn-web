@@ -57,7 +57,7 @@
     menu.init();
     menu.closeWith('.menu__link')
 
-    modal = new Menu({options: {element: '.modal', openWith: '.espacios__card', closeWith: '#modalButtonCerrar', size:'lg', from: 'right', 
+    modal = new Menu({options: {element: '.modal', openWith: '.buttonMasInfo', closeWith: '#modalButtonCerrar', size:'lg', from: 'right', 
         callbackOnOpen: function(){
             var urlPost = 'admin/bd/ParquesInd/index.php';
             $.ajax({
@@ -100,12 +100,12 @@
                     }).responseText);
 
                     $("#SwiperGallery").html(`<div class="swiper-slide slide_1">
-                        <img src="admin/${parque[0].img_principal}" alt="">
-                        </div>`).hide().fadeIn();
+                        <img src="admin/${parque[0].img_principal}" alt="" loading="lazy">
+                        </div>`).fadeIn();
 
                     for (var i = 0; i < galeria.length; i++) {
                         $("#SwiperGallery").append(`<div class="swiper-slide slide_1">
-                            <img src="admin/${galeria[i].ruta}" alt="">
+                            <img src="admin/${galeria[i].ruta}" alt="" loading="lazy">
                             </div>`);
                     }
                 },
@@ -113,7 +113,7 @@
                     console.log(e.responseText);
                 },
                 complete : function(){
-                    $('#modal__title').text(modalTitle).hide().fadeIn();
+                    $('#modal__title').text(modalTitle).fadeIn();
                     $('body').css('overflow', 'hidden')
                 }
             });
@@ -123,8 +123,9 @@
         } 
     }})
     modal.init()
-    modal.openWith('.buttonMasInfo')
+    // modal.openWith('.buttonMasInfo')
 
     AOS.init();
 </script>
+<script src="js/espacios.js"></script>
 <script src="js/index.js"></script>     
