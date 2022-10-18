@@ -11,9 +11,9 @@
     <?php include 'templates/components/menu.html'; ?>
     <!--===== MENU END =====-->
 
-    <!--===== MENU START =====-->
+    <!--===== MODAL START =====-->
     <?php include 'templates/components/modal.html'; ?>
-    <!--===== MENU END =====-->
+    <!--===== MODAL END =====-->
 
     <!--===== BANNER START =====-->
     <?php include 'templates/components/banner.html'; ?>
