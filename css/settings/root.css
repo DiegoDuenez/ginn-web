@@ -23,12 +23,16 @@
     --color-gray-100: #7c7c7c;
     --color-gray-200: #6f6f6f;
     --color-gray-900: #323031;
+    --color-green: rgb(17, 201, 115);
+    --color-red: rgb(215, 34, 34);
+    --color-orange: rgb(242, 159, 15);
     --fs-titulo: 4rem;
     --fs-texto: 1rem;
     --ff-titulo: BakBakOneRegular;
     --ff-texto: MavenProRegular;
-    
 }
+
+
 
 /*
 |   ---------------------------------------------------------------------------------
@@ -126,13 +130,11 @@ body>section {
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
-/* Track */
+
 ::-webkit-scrollbar-track {
     background: var(--color-gray-100);
 }
-  
-/* Handle */
+
 ::-webkit-scrollbar-thumb {    
     background: var(--color-gray-900);
 }

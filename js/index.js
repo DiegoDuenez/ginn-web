@@ -44,15 +44,17 @@ var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
     if (scrollTop > "20" ) {
-        $('.navbar').css('height', '5rem')
-        $('.navbar').css('padding', '0rem 2rem')
-        $('.navbar').css('background-color', '#323031')
+        // $('.navbar').css('height', '5rem')
+        // $('.navbar').css('padding', '0rem 2rem')
+        // $('.navbar').css('background-color', '#323031')
+
 
     }
     else {
-        $('.navbar').css('height', '8rem')
-        $('.navbar').css('padding', '1rem 4rem')
-        $('.navbar').css('background-color', 'transparent')
+
+        // $('.navbar').css('height', '6rem')
+        // $('.navbar').css('padding', '2rem 2rem')
+        // $('.navbar').css('background-color', '#323031')
 
     }
     lastScrollTop = scrollTop

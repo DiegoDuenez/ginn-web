@@ -75,7 +75,7 @@
                         data : { funcion : 'obtenerDatosTecnicos', idcat_parques_ind : modalId },
                     }).responseText);
 
-                    $("#listDatos").html(null);
+                    $("#listDatos").empty();
                     for (var i = 0; i < listDatos.length; i++) {
                         $("#listDatos").append(`<li>${listDatos[i].descripcion}</li>`);
                     }
@@ -87,7 +87,7 @@
                         data : { funcion : 'obtenerServicios', idcat_parques_ind : modalId },
                     }).responseText);
 
-                    $("#listCaracteristicas").html(null);
+                    $("#listCaracteristicas").empty();
                     for (var i = 0; i < listServicios.length; i++) {
                         $("#listCaracteristicas").append(`<li>${listServicios[i].descripcion}</li>`);
                     }
@@ -118,14 +118,21 @@
                 }
             });
         },
-        callbackOnClose: function(){
+        callbackOnClose: async function(){
             $('body').css('overflow', 'auto')
+            await sleep(500)
+            $("#listDatos").html(null);
+            $("#listCaracteristicas").html(null);
+            $("#SwiperGallery").html(null)
         } 
     }})
     modal.init()
-    // modal.openWith('.buttonMasInfo')
-
     AOS.init();
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    
 </script>
 <script src="js/espacios.js"></script>
 <script src="js/index.js"></script>     

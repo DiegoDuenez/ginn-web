@@ -7,7 +7,7 @@ $mensaje = test_input($_POST['mensaje']);
 
 
 if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
-    echo json_encode('emptyy');
+    echo json_encode('empty');
 } else {
     $para = "diegoduenez03@gmail.com";
     $titulo = $nombre . ' quiere ponerse en contacto.';
@@ -36,7 +36,7 @@ if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
     $cabeceras .= 'From: ' . $nombre . "\r\n";
 
     $sent = mail($para, utf8_decode($titulo), utf8_decode($mensaje), $cabeceras);
-    echo json_encode('captcha');
+    echo json_encode('captcha2');
 
    
 }

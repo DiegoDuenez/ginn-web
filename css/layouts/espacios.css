@@ -48,6 +48,29 @@
         }
     }
 
+    
+.espacios__status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-green);
+    width: max-content;
+    height: 2rem;
+    padding: 0.8rem;
+    align-self: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}    
+
+.espacios__status--orange{
+    background-color: var(--color-orange);
+}
+
+.espacios__status--red{
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
 
 .espacios__estado--active{
     background-color: var(--color-gray-900);

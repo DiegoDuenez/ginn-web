@@ -20,6 +20,9 @@
         .modal{
             flex-direction: column;
         }
+        #SwiperGallery{
+            display: none;
+        }
     }
 
 

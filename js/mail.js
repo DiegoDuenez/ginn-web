@@ -10,7 +10,7 @@ function enviar() {
 
         if(nombre != "" && correo != "" && mensaje != "" && telefono != ""){
             $.ajax({
-                url: 'app/mail.php',
+                url: 'app/correo.php',
                 type: 'post',
                 data: {'nombre': nombre, 'correo': correo, 'telefono': telefono, 'mensaje': mensaje},
                 dataType: 'text',
