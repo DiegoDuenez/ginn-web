@@ -45,13 +45,10 @@
     <?php include 'templates/layouts/contacto.html'; ?>
     <!--===== CONTACTO END =====-->
 
-    <!--===== FOOTER START =====-->
-    <?php include 'templates/components/footer.html'; ?>
-    <!--===== FOOTER END =====-->
-
     <!--===== SCRIPTS START =====-->
     <?php include 'templates/scripts.html'; ?>
     <!--===== SCRIPTS END =====-->
+
 
 </body>
 </html>

@@ -29,6 +29,13 @@
     flex-wrap: wrap;
     padding: 0 10rem;
 }
+
+    @media screen and (min-width: 1840px) {
+        .clientes__container{
+            padding: 0 10rem;
+            gap: 2rem;
+        }
+    }
     @media screen and (min-width: 657px) and (max-width: 1070px) {
         .clientes__container{
             padding: 0 5rem;
@@ -45,6 +52,12 @@
     width: 15rem;
     height: 10rem;
 }
+    @media screen and (min-width: 1840px) {
+        .clientes__image{
+            width: 20rem;
+            height: 15rem;
+        }
+    }
 
 .clientes__image img{
     width: 100%;

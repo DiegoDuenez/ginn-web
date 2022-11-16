@@ -16,6 +16,11 @@
     flex-direction: column;
     background-color: var(--color-gray-900);
 }
+    @media screen and (min-width: 1840px) {
+        .banner{
+            top: 8rem;
+        }
+    }
     @media screen and (min-width: 1025px) and (max-width: 1200px) { /* DESKTOP */ }
     @media screen and (min-width: 769px) and (max-width: 1024px) { /* LAPTOP */ }
     @media screen and (min-width: 481px ) and (max-width: 768px) { /* TABLET*/ }
@@ -29,10 +34,16 @@
     top: 0;
     left: 0;
     width: 50%;
-    background-color: #3230316d;
+    background-color: #32303185;
     height: 100%;
     padding-top: 8rem;
 }
+
+    @media screen and (min-width: 1840px) {
+        .banner__mask{
+            padding: 5rem 3rem;
+        }
+    }
     @media screen and (min-width: 551px) and (max-width: 1050px) {
         .banner__mask{
             width: 100%;
@@ -72,6 +83,11 @@
     text-align: center;
     font-size: 1.5rem;
 }
+    @media screen and (min-width: 1840px) {
+        .banner__text{
+            font-size: 2.5rem;
+        }
+    }
 
 .banner__cards{
     display: flex;
@@ -81,6 +97,11 @@
     position: absolute;
     bottom: 0;
 }
+    @media screen and (min-width: 1840px) {
+        .banner__cards{
+            bottom: 10rem;
+        }
+    }
     @media screen and (min-width: 300px) and (max-width: 1050px) {
         .banner__cards{
             padding-left: 0;
@@ -106,11 +127,29 @@
     gap: 1rem;
     padding: 2rem;
 }
+    @media screen and (min-width: 1840px) {
+        .banner__card{
+            width: 20rem;
+            height: 17rem;
+        }
+    }
 
 .banner__card-title{
     font-family: var(--ff-titulo);
     font-size: 1.2rem;
 }
+
+    @media screen and (min-width: 1840px) {
+        .banner__card-title{
+            font-size: 2rem;
+        }
+    }
+
+    @media screen and (min-width: 1840px) {
+        .banner__card-text{
+            font-size: 1.5rem;
+        }
+    }
 
 .banner__card--gray-100{
     background-color: var(--color-gray-100);

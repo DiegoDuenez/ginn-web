@@ -11,11 +11,9 @@
         $descripcion = $parque["descripcion"];
 
         if ($number % 2 == 0) {
-            echo "<div class='parques__container parques__container--end' data-aos='fade-left'>
+            echo "<div class='parques__container ' data-aos='fade-left'>
             <div class='parques__card'>
-            <div class='parques__card-image'>
-            <img src='admin/$img_principal' alt='Parque'>
-            </div>
+           
             <div class='parques__card-body'>
             <h2>$nombre</h2>
             <p>$descripcion</p>
@@ -23,6 +21,9 @@
             <button class='button buttonMasInfo' data-id='$idcat_parques_ind' data-titulo='$nombre'>
             Más información
             </button>
+            </div>
+            <div class='parques__card-image'>
+            <img src='admin/$img_principal' alt='Parque'>
             </div>
             </div>
             </div>";

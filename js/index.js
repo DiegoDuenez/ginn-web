@@ -69,7 +69,7 @@ window.onscroll = function() {
         if (prevScrollpos > currentScrollPos) {
             $('.navbar').css('top', '0')
         } else {
-            $('.navbar').css('top', '-100px')
+            $('.navbar').css('top', '-150px')
 
         }
     prevScrollpos = currentScrollPos;

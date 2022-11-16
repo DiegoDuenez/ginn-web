@@ -21,6 +21,14 @@
     background-color: #323031;
 }
 
+    @media screen and (min-width: 1840px) {
+        .navbar{
+            height: 9rem;
+        }
+    }
+
+
+
 .navbar__content{
     display: flex;
     width: max-content;
@@ -32,6 +40,12 @@
     width: 8rem;
     height: 100%;
 }
+
+    @media screen and (min-width: 1840px) {
+        .navbar__logo{
+            width: 13rem;
+        }
+    }
 
 .navbar__logo img{
     width: 100%;
@@ -60,6 +74,11 @@
     height: 100%;
     font-weight: bolder;
 }   
+    @media screen and (min-width: 1840px) {
+        .navbar__link{
+           font-size: 1.5rem;
+        }
+    }
     @media screen and (min-width: 300px) and (max-width: 1160px) {
         .navbar__link{
             display: none;
@@ -85,3 +104,8 @@
     outline: none;
     cursor: pointer;
 }
+    @media screen and (min-width: 1840px) {
+        .navbar__button{
+            font-size: 3rem;
+        }
+    }

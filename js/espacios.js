@@ -43,7 +43,7 @@ function cargarProyectosCiudad(id_ciudad){
                     <div class="espacios__card-body">
                     <p>${json[i].nombre}</p>
                     <p class="espacios__card-title">${json[i].nombre2}</p>
-                    <p><i class="fa-solid fa-location-dot"></i> ${json[i].ubicacion}</p>
+                    <p><i class="fa-solid fa-location-dot" style="color: var(--color-gray-900);"></i> ${json[i].ubicacion}</p>
                     ${m2}${m2_oficinas}
                     ${status}
                     </div>  

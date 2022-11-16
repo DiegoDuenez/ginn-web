@@ -40,7 +40,14 @@
     height: 3rem;
     cursor: pointer;
     transition: 400ms;
+    
 }
+    @media screen and (min-width: 1840px) {
+        .espacios__estado{
+            width: 15rem;
+            font-size: 1.5rem;
+        }
+    }
     @media screen and (min-width: 300px) and (max-width: 416px) {
         .espacios__estado{
             display: flex;
@@ -62,6 +69,14 @@
     font-size: 0.8rem;
     text-transform: uppercase;
 }    
+
+    @media screen and (min-width: 1840px) {
+        .espacios__status{
+            height: 3rem;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+    }
 
 .espacios__status--orange{
     background-color: var(--color-orange);
@@ -86,6 +101,9 @@
     padding: 1rem 0;
     gap: 3rem;
     justify-content: center;
+
+    flex-direction: column;
+            padding: 3rem;
 }
     @media screen and (min-width: 300px) and (max-width: 490px) {
         .espacios__container{
@@ -95,23 +113,42 @@
         }
     }
 
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .espacios__container{
+            padding: 0;
+        }
+    }
+
+    @media screen and (min-width: 1840px) {
+        .espacios__container{
+            flex-direction: column;
+            padding: 3rem;
+        }
+    }
+
 
 .espacios__card{
     display: flex;
-    flex-direction: column;
-    width: 20rem;
-    min-height: 30rem;
-    height: max-content;
     cursor: pointer;
     background-color: white;
     position: relative;
     box-shadow:  0 30px 40px -10px rgba(0 , 0 , 0 , 0.35);
+    flex-direction: row;
+    width: 100%;
+    min-height: 22rem;
+    height: max-content;
+    font-size: 1rem;
 }
-    @media screen and (min-width: 300px) and (max-width: 490px) {
+    @media screen and (min-width: 1840px) {
         .espacios__card{
-            width: 100%;
+            font-size: 1.5rem;
         }
     }
+    @media screen and (min-width: 300px) and (max-width: 1000px) {
+        .espacios__card{
+            flex-direction: column;
+        }
+    } 
 
 
 .espacios__card:hover .espacios__card-header img{
@@ -121,9 +158,17 @@
 .espacios__card-header{
     display: flex;
     width: 100%;
-    height: 15rem;
+    /* height: 15rem; */
     overflow: hidden;
+    /* height: 100%; */
+
 }
+    @media screen and (min-width: 1840px) {
+        .espacios__card-header{
+            /* height: 17rem; */
+            /* height: 100%; */
+        }
+    }
 
 .espacios__card-header img{
     transition: 400ms;
@@ -161,9 +206,18 @@
     min-height: 15rem;
     height: max-content;
     flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    gap: 1.5rem;
 }
+
+    @media screen and (min-width: 1840px) {
+        
+        .espacios__card-body{
+            padding: 2rem;
+            gap: 1.5rem;
+        }
+
+    }
 
 .espacios__card-title{
     font-family: var(--ff-titulo);
