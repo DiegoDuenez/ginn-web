@@ -21,7 +21,7 @@
     background-color: #323031;
 }
 
-    @media screen and (min-width: 1840px) {
+    @media screen and (min-width: 1640px) {
         .navbar{
             height: 9rem;
         }
@@ -41,9 +41,9 @@
     height: 100%;
 }
 
-    @media screen and (min-width: 1840px) {
+    @media screen and (min-width: 1640px) {
         .navbar__logo{
-            width: 13rem;
+            width: 15rem;
         }
     }
 
@@ -74,7 +74,7 @@
     height: 100%;
     font-weight: bolder;
 }   
-    @media screen and (min-width: 1840px) {
+    @media screen and (min-width: 1640px) {
         .navbar__link{
            font-size: 1.5rem;
         }
@@ -104,8 +104,8 @@
     outline: none;
     cursor: pointer;
 }
-    @media screen and (min-width: 1840px) {
+    @media screen and (min-width: 1640px) {
         .navbar__button{
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
     }
